@@ -1,0 +1,59 @@
+
+
+📌 Dataset Overview
+
+The dataset used for this project consists of MRI scan images labeled as either tumor or non-tumor. It is sourced from publicly available medical imaging datasets and is curated for training deep learning models for automated brain tumor detection.
+
+📂 Dataset Details
+
+Source: Kaggle / Open Access Medical Imaging Datasets
+
+Data Type: MRI Scan Images (PNG/JPG format)
+
+Total Images: Approximately 3000+ images
+
+Categories:
+
+Tumor: Images containing a brain tumor
+
+Non-Tumor: Images without a brain tumor
+
+Image Resolution: Varies (Resized to 224x224 for model training)
+
+Color Format: Grayscale/RGB
+
+Annotations: Tumor presence (Binary classification: 0 = Non-Tumor, 1 = Tumor)
+
+🛠 Data Preprocessing
+
+Resizing: Standardized to 224x224 pixels
+
+Normalization: Pixel values scaled to [0,1] for better training efficiency
+
+Augmentation: Applied to improve generalization, including:
+
+Rotation
+
+Flipping
+
+Brightness Adjustments
+
+Contrast Enhancements
+
+Splitting:
+
+Training Set: 80%
+
+Validation Set: 10%
+
+Test Set: 10%
+
+📊 Dataset Usage
+
+Used for training CNN-based deep learning models.
+
+Applied in classification tasks to detect tumor presence.
+
+Evaluated using metrics like accuracy, precision, recall, and F1-score.
+
+This dataset serves as a crucial component in developing an AI-driven solution for early brain tumor detection, aiding in faster and more accurate diagnoses.
